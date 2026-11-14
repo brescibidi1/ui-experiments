@@ -28,7 +28,9 @@ Les dossiers `draft`, `button_01` et les autres exercices n’ont pas encore ét
 
 Exécuter `npm run build` pour préparer `site/`. Cette sortie contient uniquement le catalogue, le HTML/CSS/JS et les ressources de `nav_37/`. Les autres exercices, la documentation, les fichiers SCSS et les sorties anciennes sont exclus. Vercel utilise cette configuration via `vercel.json`. Il n’y a pas de formulaire connecté, de base de données ou de variable secrète à configurer.
 
-Le dépôt GitHub est prévu sous le nom `ui-experiments`, sur le compte `brescibidi1`. Les publications utilisent la branche `main`.
+Dépôt : https://github.com/brescibidi1/ui-experiments
+
+Les publications utilisent la branche `main`. La configuration Vercel est prête ; la création du projet d’hébergement reste à finaliser.
 
 ## Crédits
 
