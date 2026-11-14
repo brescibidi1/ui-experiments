@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Un essai de navigation responsive en HTML, CSS et JavaScript par Kenelm. Menu mobile et navigation au clavier." />
+  <title>Navigation responsive — UI Experiments</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+  <div class="demo-topline"><a href="../">← Les autres essais</a><span>Composant 01 · HTML / CSS / JS</span></div>
+  <header class="demo-header" id="accueil">
+    <nav id="navbar" class="page-navbar" aria-label="Navigation de démonstration">
+      <a href="#accueil" class="logo-box" aria-label="Accueil de la démonstration"><img src="./assets/brescibidii.svg" width="125" height="40" alt="Brescibidi" /></a>
+      <button class="menu-toggle" id="menuButton" type="button" aria-controls="mobileMenu" aria-expanded="false" aria-label="Ouvrir le menu" hidden>
+        <img class="icon-open" src="./assets/menu-toggler.svg" width="24" height="24" alt="" />
+        <img class="icon-close" src="./assets/x-close.svg" width="24" height="24" alt="" />
+      </button>
+      <div class="contents" id="mobileMenu">
+        <ul class="nav-links">
+          <li><a href="#accueil" class="nav-link">Accueil</a></li>
+          <li><a href="#a-propos" class="nav-link">À propos</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#temoignages" class="nav-link">Témoignages</a></li>
+        </ul>
+        <div class="nav-buttons">
+          <button type="button" class="button secondary" data-demo-action="inscription">S’inscrire</button>
+          <button type="button" class="button primary" data-demo-action="connexion">Connexion</button>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main id="contenu" tabindex="-1">
+    <div class="demo-intro">
+      <p class="eyebrow">Navigation responsive</p>
+      <h1>Un premier essai de navigation.</h1>
+      <p>Une barre arrondie sur grand écran, un menu repliable sur mobile. J’ai gardé le style de cet exercice et repris ses interactions pour pouvoir le partager ici.</p>
+      <p class="demo-hint">Réduis la fenêtre pour essayer le menu mobile. Les boutons de compte sont simulés : aucun compte n’est créé.</p>
+      <p id="demo-feedback" class="demo-feedback" role="status" aria-live="polite"></p>
+      <noscript><p>JavaScript est désactivé : les liens restent accessibles, mais le repli du menu et les boutons de démonstration ne sont pas actifs.</p></noscript>
+    </div>
+    <section id="a-propos" class="demo-section"><span>01</span><div><h2>À propos</h2><p>Ce lien sert à vérifier le déplacement vers une section. L’exemple fonctionne sans framework et sans service externe.</p></div></section>
+    <section id="services" class="demo-section"><span>02</span><div><h2>Services</h2><p>Une deuxième section pour tester la navigation. Les liens restent visibles sur grand écran et se regroupent dans le menu sur les écrans plus petits.</p></div></section>
+    <section id="temoignages" class="demo-section"><span>03</span><div><h2>Témoignages</h2><p>Cette zone complète l’exemple de navigation. Elle ne contient pas de témoignages clients : c’est une page de démonstration.</p></div></section>
+  </main>
+  <footer class="demo-footer"><a href="../">UI Experiments</a><a href="https://kenelm.brescibidi.com/labo">Mon Labo ↗</a></footer>
+</body>
+</html>

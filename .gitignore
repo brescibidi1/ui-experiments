@@ -1,0 +1,12 @@
+node_modules/
+/dist/
+*.css.map
+*.log
+.env
+.env.*
+!.env.example
+.DS_Store
+
+# Generated publication folder
+/site/
+.vercel/
