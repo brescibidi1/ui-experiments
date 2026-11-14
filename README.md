@@ -1,5 +1,7 @@
 # UI Experiments
 
+[Voir la collection](https://ui-experiments-drab.vercel.app/) · [Essayer la navigation](https://ui-experiments-drab.vercel.app/nav_37/)
+
 Mes petits essais de composants d’interface. Chaque exemple garde son dossier, ses fichiers et sa démo. La collection commence avec une navigation responsive ; les autres exercices présents dans ce dossier seront préparés progressivement.
 
 ## Lancer la collection
@@ -30,7 +32,7 @@ Exécuter `npm run build` pour préparer `site/`. Cette sortie contient uniqueme
 
 Dépôt : https://github.com/brescibidi1/ui-experiments
 
-Les publications utilisent la branche `main`. La configuration Vercel est prête ; la création du projet d’hébergement reste à finaliser.
+Le projet Vercel `ui-experiments` est lié à ce dépôt dans l’équipe `brescibidi1s-projects`. Les publications utilisent la branche `main`.
 
 ## Crédits
 

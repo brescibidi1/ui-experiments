@@ -1,5 +1,7 @@
 # Navigation responsive — nav_37
 
+[Essayer la démo](https://ui-experiments-drab.vercel.app/nav_37/) · [Voir le code](https://github.com/brescibidi1/ui-experiments/tree/main/nav_37)
+
 Un de mes premiers essais de barre de navigation : fond vert, barre blanche arrondie sur grand écran et menu repliable sur mobile. Cette version reprend les interactions pour pouvoir partager l’exercice dans mon Labo.
 
 ## Essayer
